@@ -1,7 +1,7 @@
-public class circle extends shape {
+public class Circle extends Shape {
     private int radius;
 
-    public circle(int radius)
+    public Circle(int radius)
     {
         super("circle");
         this.radius = radius;

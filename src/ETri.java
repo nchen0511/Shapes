@@ -1,9 +1,9 @@
-public class ETri extends shape
+public class ETri extends Shape
 {
     private int side;
     public ETri(int side)
     {
-        super("ETri");
+        super("equilateral triangle");
         this.side = side;
 
 
