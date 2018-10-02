@@ -1,5 +1,5 @@
 public class RegularTriangle extends Shape{
-}
+
     private int height;
     private int base;
     private int base2;
