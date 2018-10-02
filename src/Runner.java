@@ -3,7 +3,7 @@ public class Runner {
         /**
          * The array, Shape contains the shapes Rectangle, Circle, E(quilateral) Triangle, Square and Ellipse. Their respective parameters are listed to their right
          */
-        Shape[] shapes = {new Rectangle(100,5),new Circle(500),new ETri(123),new Square(20),new Ellipse(4,6)};
+        Shape[] shapes = {new Rectangle(100,5),new Circle(500),new ETri(123),new Square(20),new Ellipse(4,6),new RegularTriangle(2,2,3)};
 
 
         /**

@@ -6,7 +6,7 @@ public class Ellipse extends Shape {
         /**
          * Unlike the Circle, the ellipse requires 2 parameters, 1 for the major and 1 for the minor axis.
          */
-        super("Ellipse");
+        super("ellipse");
         this.axisA = axisA;
         this.axisB = axisB;
     }

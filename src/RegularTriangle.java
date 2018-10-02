@@ -6,7 +6,7 @@ public class RegularTriangle extends Shape{
     private int base3;
     public RegularTriangle(int base, int base2, int base3)
     {
-        super("Regular Triangle");
+        super("regular triangle");
 
         this.base = base;
         this.base2 = base2;
@@ -17,7 +17,7 @@ public class RegularTriangle extends Shape{
 
     public double getArea()
     {
-        int p = (base+base2+base3)/2;
+        double p = (base+base2+base3)/2.0;
         return(Math.sqrt(p*(p-base)*(p-base2)*(p-base3)));
     }
     public double getPerimeter()
