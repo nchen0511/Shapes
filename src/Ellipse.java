@@ -3,11 +3,17 @@ public class Ellipse extends Shape {
     private int axisB;
     public Ellipse(int axisA,int axisB)
     {
-        super("Ellipse");
+        /**
+         * Unlike the Circle, the ellipse requires 2 parameters, 1 for the major and 1 for the minor axis.
+         */
+        super("ellipse");
         this.axisA = axisA;
         this.axisB = axisB;
     }
-
+    /**
+     * The below returns the area and the circumference of the circle.
+     * @return
+     */
     public double getArea()
     {
         return Math.PI *axisB * axisA;
