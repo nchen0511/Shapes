@@ -4,6 +4,7 @@ public class Runner {
         Shape shape2 = new Circle(500);
         Shape shape3 = new ETri(123);
         Shape shape4 = new Square(20);
+        Shape shape5 = new Ellipse(4,6);
 
 
         System.out.println(shape1);
@@ -27,5 +28,11 @@ public class Runner {
         System.out.println(shape4);
         System.out.println("My area is " + shape4.getArea());
         System.out.println("My perimeter is " + shape4.getPerimeter());
+
+        System.out.println();
+
+        System.out.println(shape5);
+        System.out.println("My area is " + shape5.getArea());
+        System.out.println("My perimeter is " + shape5.getPerimeter());
     }
 }

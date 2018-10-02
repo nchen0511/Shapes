@@ -14,6 +14,6 @@ public class Ellipse extends Shape {
     }
     public double getPerimeter()
     {
-        return 2 * Math.PI * radius;
+        return (Math.PI *(3*(axisA+axisB)-Math.sqrt((3*axisA +axisB)*(axisA + axisB *3))));
     }
 }
